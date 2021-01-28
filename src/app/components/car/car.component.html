@@ -1,0 +1,8 @@
+<!--<div *ngIf="user.status">-->
+<!--  {{user.name}} - {{user.age}} - {{user.status}}-->
+<!--</div>-->
+
+<div [class.target]="singleCar.power>200">
+  {{singleCar.carId}} - {{singleCar.producer}} - {{singleCar.model}} - <a [routerLink]="[singleCar.carId]">info</a>
+</div>
+<router-outlet></router-outlet>

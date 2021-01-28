@@ -1,0 +1,20 @@
+.target {
+  background: lightsalmon;
+  color: black;
+}
+
+.bgBlue {
+  background: lightblue;
+}
+
+.bgYellow {
+  background: lightyellow;
+}
+
+.bgPink {
+  background: lightpink;
+}
+
+.colWhite {
+  color: white;
+}
